@@ -143,6 +143,19 @@ body{
 	font-size: 0.8rem;
 	width: 235px;
 }
+@media (max-width: 1000px) {
+
+  .item_input{
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(39, 34, 10);
+    font-size: 0.8rem;
+    width: 200px;
+  }
+
+}
+
 
 .edit{
 	background: none;
@@ -205,3 +218,4 @@ body{
 .add:hover{
 	opacity: 0.7;
 }
+
