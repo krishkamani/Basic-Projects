@@ -127,3 +127,81 @@ body{
   opacity: 1;
   pointer-events: auto;
 }
+
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid rgb(216, 93, 93);
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(39, 34, 10);
+	font-size: 0.8rem;
+	width: 235px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 0.7rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.2rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 0.7rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+
+.title{
+	color: lime;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
